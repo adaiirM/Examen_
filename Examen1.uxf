@@ -1,0 +1,28 @@
+<diagram program="umletino" version="15.0.0"><zoom_level>9</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>225</x><y>423</y><w>189</w><h>63</h></coordinates><panel_attributes>abstract Productos
+--
+-NombreProducto
+-Marca
+-Precio</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>18</x><y>558</y><w>189</w><h>108</h></coordinates><panel_attributes>Farmacia
+--
+-Contenido
+-ConcentracionQuimica</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>234</x><y>576</y><w>189</w><h>90</h></coordinates><panel_attributes>electrónica 
+--
+-TipoProducto</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>450</x><y>576</y><w>189</w><h>81</h></coordinates><panel_attributes>alimentos y bebidas. 
+--
+-Contenido
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>495</x><y>72</y><w>189</w><h>63</h></coordinates><panel_attributes>Usuario
+--
+-NombreUsuario
+-Contraseña
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>63</x><y>117</y><w>189</w><h>63</h></coordinates><panel_attributes>Tienda
+--
+-NombreTienda
+-Direccion</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>639</x><y>423</y><w>189</w><h>63</h></coordinates><panel_attributes>CarritoCompras
+--
+--
+eliminarProducto(String):void
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>324</x><y>477</y><w>234</w><h>117</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;240;110</additional_attributes></element><element><id>Relation</id><coordinates><x>315</x><y>477</y><w>27</w><h>117</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;110</additional_attributes></element><element><id>Relation</id><coordinates><x>117</x><y>477</y><w>198</w><h>99</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>200;10;10;90</additional_attributes></element><element><id>Relation</id><coordinates><x>585</x><y>126</y><w>144</w><h>315</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;10;140;330</additional_attributes></element><element><id>Relation</id><coordinates><x>243</x><y>63</y><w>270</w><h>108</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;100;280;10</additional_attributes></element><element><id>Relation</id><coordinates><x>135</x><y>171</y><w>207</w><h>270</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;210;280</additional_attributes></element><element><id>Relation</id><coordinates><x>405</x><y>423</y><w>252</w><h>36</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>260;10;10;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>369</x><y>225</y><w>189</w><h>63</h></coordinates><panel_attributes>&lt;&lt;MetodoMostrar&gt;&gt;
+--
+--
++mostrarProducto():void</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>486</x><y>279</y><w>225</w><h>162</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>230;160;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>180</x><y>171</y><w>198</w><h>99</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;200;90</additional_attributes></element></diagram>
